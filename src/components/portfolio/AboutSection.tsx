@@ -50,7 +50,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-72 md:h-72 rounded-2xl overflow-hidden border-4 border-primary/20 portfolio-surface hover-lift">
                 <img 
-                  src="/lovable-uploads/viswanath.jpeg"
+                 src={`${import.meta.env.BASE_URL}lovable-uploads/viswanath.jpeg`}
                   alt="Viswanath Jagaluri - Professional Portrait"
                   className="w-full h-full object-cover object-center"
                 />
